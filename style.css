@@ -1,0 +1,84 @@
+
+/* //variables */
+:root{
+    --dark:#0a0a0a;
+    --ligth:#ffffff; 
+    --color1: #899cb5;
+    --color2: #bbb6d8;
+    --color3: #ddc2da;
+    --color4: #efe2e8;
+    --color5: #f6f1f3;
+}
+
+
+body {
+    font-family: 'League Spartan', sans-serif; 
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: var(--color5);
+}
+
+.tex-dark{ color: var(--dark); } ;
+
+.py-5{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+/* //botones */
+.btn {
+    padding: .75rem 1rem;
+    border-radius: .1rem;
+    font-weight: 700;
+   
+
+}
+
+.btn-dark {
+    background-color: var(--color3);
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    
+}
+
+.hero {
+    /* background: linear-gradient(180deg, var(#3e308a) 70%, var(#ae2e2e)0); */
+
+    background-color:linear-gradient(180deg, var(#3e308a) 70%, var(#ae2e2e)0);
+}
+
+.text {
+    text-transform: lowercase;
+}
+
+.btn-primary{
+    background:#899cb5 ;
+    border: #0a0a0a;
+}
+.btn-primary:hover{
+    background-color:#efe2e8;
+    color: #0a0a0a;
+}
+
+
+
+.card img {
+    width: auto;
+    height: 280px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.card img:hover {
+   
+        -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+                transform: scale(1.2); 
+}
+
+
+.row col-12 justify-content-center mr-2 {
+    background-color: #899cb5;
+}
