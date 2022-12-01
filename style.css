@@ -88,7 +88,7 @@ img {
 }
 
 
-.row col-12 justify-content-center mr-2 {
+.row col-12 justify-content-center {
     background-color: var(--color5);
 }
 
