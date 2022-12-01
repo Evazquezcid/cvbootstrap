@@ -11,11 +11,13 @@
 }
 
 
+
 body {
     font-family: 'League Spartan', sans-serif; 
     font-size: 1rem;
     font-weight: 300;
     background-color: var(--color5);
+   
 }
 
 .tex-dark{ color: var(--dark); } ;
@@ -41,6 +43,13 @@ img {
     width: 400px;
     height: 400px;
     
+    
+    
+}
+
+.img-fluid rounded-circle:hover{
+    background: #0a0a0a;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,156,181,1) 35%, rgba(187,182,216,1) 100%);
 }
 
 .hero {
@@ -80,5 +89,10 @@ img {
 
 
 .row col-12 justify-content-center mr-2 {
-    background-color: #899cb5;
+    background-color: var(--color5);
+}
+
+#footer{
+    background-color: var(--color4);
+   
 }
