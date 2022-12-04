@@ -75,7 +75,7 @@ img {
 
 .card img {
     width: auto;
-    height: 280px;
+    height: auto;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
@@ -96,3 +96,27 @@ img {
     background-color: var(--color4);
    
 }
+
+h1 {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2rem;
+    margin: 0 auto;
+    
+    border-right: 0.15em solid #dc27d9;
+    animation: typing 5s steps(35) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
